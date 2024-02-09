@@ -9,11 +9,17 @@ body {
 header {
     background-color: #ADCBD8;
     text-align: center;
+    padding: .2rem 2%;
+}
+header h1 {
+    font-style: oblique
 }
 
 header h2 {
-        color: #2E2A30;
-        background-color: #ADCBD8;
+        color: #95B5A1;
+       margin: .5rem;
+    
+    
 }
 header p {
     margin: 0;
