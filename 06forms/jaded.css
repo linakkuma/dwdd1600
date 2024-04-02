@@ -167,7 +167,7 @@ div.gallery figcaption {
     display: block;
 }
 
-.jaded select, .jaded [type=text], .jaded [type=tel], .jaded textarea {
+.jaded select, .jaded [type=text], .jaded [type=tel], .jaded textarea, .jaded [type=email] {
     
     border: solid 1px #888;
     padding: .3rem;
