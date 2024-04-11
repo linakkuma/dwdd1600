@@ -124,6 +124,7 @@ nav a:hover {
         margin: 0;
         padding: 0 2vw;
         list-style-type: none;
+        display: block;
 
     }
     
@@ -141,7 +142,7 @@ nav a:hover {
     nav .active a {
         background-color: #ADCBD8;
         background-image: linear-gradient(to bottom, #ADCBD8, #E0E6E6);
-        color: white;;
+        color: white;
         
     }
     
