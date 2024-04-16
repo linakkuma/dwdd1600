@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang=en>
+    
+    <head>
+        
+        <title>Jaded Blossom Official Site</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Alina Silim">
+        <meta name="description" content="Asian Beauty Secrets">
+        <meta name="viewport" content="width-device-width, initial scale=1">
+        <link rel="stylesheet" href="jaded.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="skincareimages/favicon.ico">
+        
+    </head>
+        
+    <body>
+        <!-- Start of Page Header -->
+    
+       <header> 
+            <img src="skincareimages/jbicon.png" alt="icon" width="100" height="98"> 
+            <div>
+           <h1>Jaded Blossom</h1>
+        <h2>The Secret to Asian Beauty</h2>
+           </div>
+            
+        </header>
+        <!-- Start of Page Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Why Asian Beauty?</a></li>
+                    <li><a href="beauty.html">Which Skincare Works For You</a></li>
+                    <li><a href="visual.html">Variety of Skincare</a></li>
+                    <li class="active"><a href="order.html"> Order Products</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+         <!-- start the page main -->
+    <main>
+        <h1>Order Skincare</h1>
+        <form method="get" class="jaded" action="thankyou.html">
+        
+            <fieldset>
+                <legend>Customer Information</legend>
+        <label>First Name*</label><input type="text" name="fname" required>
+         <label>Last Name*</label><input type="text" name="lname" required>
+         <label>Cell Number*</label><input type="tel" name="phone" required placeholder="8016344197">
+                <label>Email*</label><input type="email" name="email" required placeholder="silimalina@gmail.com">
+          </fieldset>  
+            
+        <fieldset>
+            <legend> Shipping Method </legend>
+           <label> <input type="radio" name="method" value="free"> Free Shipping (7-14 business days)</label>
+             <label> <input type="radio" name="method" value="express"> Express Shipping (3-5 business days)</label>
+            <label> <input type="radio" name="method" value="overnight"> Overnight Shipping (1-2 Business Days)  </label>
+            </fieldset>    
+            
+            <fieldset>
+            <legend> Delivery Options</legend>
+            <label> <input type="checkbox" name="front" value="chosen"> Frontdoor Step </label>
+            <label> <input type="checkbox" name="mail" value="chosen"> Mailbox </label>
+            <label> <input type="checkbox" name="post" value="chosen"> Pickup at nearest Post Office </label>
+            <label> <input type="checkbox" name="back" value="chosen"> Backdoor </label>
+           
+                <label> Preferred Delivery Time
+            <select name="time">
+                <option value="none">Please Select</option>
+                <option value="morning">Between 7:00am-11:00am</option>
+                <option value="noon">Between 11:00am-2:00pm</option>
+                <option value="afternoon">Between 2:00pm-5:00pm</option>
+                <option value="evening">Between 5:00pm-8:00pm</option>
+                </select>
+                    </label>
+                
+                <label> Comments
+                    <textarea name="comments">
+                    </textarea>
+                
+                </label>
+
+                
+            </fieldset>
+            
+            
+        <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+        
+         <!-- Start of the page footer -->
+        <footer>
+        <p> &copy; 2024 &bull; Alina Silim &bull; 
+            <a href="mailto:alinasilim3@gmail.com"> Email Us</a></p>
+        </footer>
+        </body>
+</html>
+      
+       
